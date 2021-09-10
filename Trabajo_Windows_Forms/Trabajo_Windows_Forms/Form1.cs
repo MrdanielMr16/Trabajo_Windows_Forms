@@ -12,6 +12,7 @@ namespace Trabajo_Windows_Forms
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -19,8 +20,9 @@ namespace Trabajo_Windows_Forms
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            Form Form2 = new Form2();
-            Form2.Show();
+            Form2 Cambio = new Form2();
+            Cambio.Show();
+            this.Hide();
         }
     }
 }

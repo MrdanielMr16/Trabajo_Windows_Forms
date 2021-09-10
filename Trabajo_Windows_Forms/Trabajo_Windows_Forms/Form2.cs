@@ -19,9 +19,9 @@ namespace Trabajo_Windows_Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form Form1 = new Form1();
-            Form1.Show();
-            
+            Form1 Cambio1 = new Form1();
+            Cambio1.Show();
+            this.Hide();
         }
     }
 }

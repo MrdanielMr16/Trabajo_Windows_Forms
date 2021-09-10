@@ -37,7 +37,7 @@
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar.TabIndex = 0;
-            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.Text = "Calcular";
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
