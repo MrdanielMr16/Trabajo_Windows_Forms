@@ -16,5 +16,11 @@ namespace Trabajo_Windows_Forms
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Form Form2 = new Form2();
+            Form2.Show();
+        }
     }
 }
