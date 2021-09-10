@@ -16,5 +16,12 @@ namespace Trabajo_Windows_Forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form Form1 = new Form1();
+            Form1.Show();
+            
+        }
     }
 }
